@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jlm.app.jianlemei_demo.activity.home.examcenter.EyeExamActivity">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:id="@+id/eye_exam_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titlename="眼睛" />
+
+    <FrameLayout
+        android:id="@+id/eye_exam_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/eye_exam_title"></FrameLayout>
+</RelativeLayout>

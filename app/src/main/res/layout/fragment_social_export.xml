@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.jlm.app.jianlemei_demo.fragment.social.SocialExportFragment">
+
+    <ListView
+        android:id="@+id/fg_social_export_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:scrollbarSize="2dp"></ListView>
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:id="@+id/self_exam_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titlename="身体自检" />
+    <TextView
+        android:id="@+id/self_exam_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/self_exam_title"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="选择病状"
+        android:textSize="28px" />
+
+    <Button
+        android:id="@+id/self_exam_choose_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/shap_normal"
+        android:text="确定" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/self_exam_choose_submit"
+        android:layout_below="@id/self_exam_prompt">
+
+        <RadioGroup
+            android:id="@+id/self_exam_choose_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical"/>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:id="@+id/emotion_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titlename="情绪检测" />
+
+    <Button
+        android:id="@+id/emotion_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button_clicked"
+        android:text="提 交"
+        android:textColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/emotion_b"
+        android:layout_below="@id/emotion_title">
+
+        <LinearLayout
+            android:id="@+id/emotion_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical" />
+    </ScrollView>
+</RelativeLayout>

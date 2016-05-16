@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/main_bar_mine_check" android:state_checked="true"></item>
+    <item android:drawable="@drawable/main_bar_mine_normal"></item>
+</selector>

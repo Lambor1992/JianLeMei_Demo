@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="手机" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="食材" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="调料" />
+        <item
+            android:id="@+id/nav_sss"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="保健食品" />
+        <item
+            android:id="@+id/nav_mmmm"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="自检器材" />
+        <item
+            android:id="@+id/nav_mm"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="保健器材" />
+    </group>
+
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="购物车" />
+
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MallActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titlename="健乐美商城" />
+
+
+    <RadioGroup
+        android:id="@+id/content_mall_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        android:paddingTop="3dp">
+
+        <RadioButton
+            android:id="@+id/content_mall_radiobtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#dddddd"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="最新上架"
+            android:textColor="#606060" />
+
+        <RadioButton
+            android:id="@+id/content_mall_radiobtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#dddddd"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="热门推荐"
+            android:textColor="#606060" />
+
+        <RadioButton
+            android:id="@+id/content_mall_radiobtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#dddddd"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="特价优惠"
+            android:textColor="#606060" />
+
+        <RadioButton
+            android:id="@+id/content_mall_radiobtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#dddddd"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="积分换购"
+            android:textColor="#606060" />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/content_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/white" />
+</LinearLayout>

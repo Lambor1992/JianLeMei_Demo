@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.home.Home_ExamCenterActivity">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titlename="体检中心"></com.jlm.app.jianlemei_demo.widget.TitleBar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="#DDDDDD">
+
+        <com.jlm.app.jianlemei_demo.widget.CircleWaveView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/examcenter_btn_test_fast"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shap_r"
+            android:text="快速体检"
+            android:textSize="32px"
+            android:textColor="@color/white"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:background="#FF00FF">
+
+        <Button
+            android:id="@+id/examcenter_btn_test_vision"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/eye_exam"
+            android:text="视力检测" />
+
+        <Button
+            android:id="@+id/examcenter_btn_test_hearing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/ear_exam"
+            android:text="听力检测" />
+
+        <Button
+            android:id="@+id/examcenter_btn_test_bloodpressure"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/xueya_exam"
+            android:text="血压测量" />
+
+        <Button
+            android:id="@+id/examcenter_btn_test_heartrate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/heart_exam"
+            android:text="心率测量" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:background="#000FFF">
+
+        <Button
+            android:id="@+id/examcenter_btn_test_vitalcapacity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/fei_exam"
+            android:text="肺活量测量" />
+
+        <Button
+            android:id="@+id/examcenter_btn_test_bloodviscosity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/breath_exam"
+            android:text="血液粘度" />
+
+        <Button
+            android:id="@+id/examcenter_btn_test_oxygen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/xueyang_exam"
+            android:text="血氧测量" />
+
+        <Button
+            android:id="@+id/examcenter_btn_test_mental"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:drawableTop="@drawable/xinli_exam"
+            android:text="心理测试" />
+    </LinearLayout>
+
+</LinearLayout>

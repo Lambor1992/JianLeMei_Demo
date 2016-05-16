@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titlename="测量原理"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:text="  通过摄像头旁边的闪光灯做持续的光源，手指紧贴摄像头，体检宝能捕捉到毛细血管的搏动。"
+                android:lineSpacingMultiplier="1.2"
+                />
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:background="@drawable/finger_camera"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:text="  健乐美通过光电采集到稳定的脉搏波信号，通过对脉搏波的分析获得心率、血压、血脂、血氧等身体参数。"
+                android:lineSpacingMultiplier="1.2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通过大量的用户验证："
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 1.心率误差在 正负3以内\n 2.血压对对于95%以上用户，误差在正负12以内\n 3.血氧误差在 正负2以内\n 4.高血脂的识别度和准确度80%以上"
+                android:layout_margin="13dp"
+                android:lineSpacingMultiplier="1.5"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="由于摄像头和闪光灯非专业的采集设备，体检宝建议用户多次测量观察。"
+                android:layout_margin="10dp"
+                android:lineSpacingMultiplier="1.2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="健乐美一直致力于让用户直接通过手机获取自己的身体状况，我们一直在努力..."
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:lineSpacingMultiplier="1.2"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

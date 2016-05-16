@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/fg_home_viewpager_piont_red" android:state_checked="true"></item>
+    <item android:drawable="@drawable/fg_home_viewpager_point_green"></item>
+</selector>

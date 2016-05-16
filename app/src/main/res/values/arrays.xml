@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="test">
+        <item>这是一段文字</item>
+        <item>这是一段文字+1</item>
+        <item>这是一段文字+2</item>
+        <item>这是一段文字+3</item>
+    </array>
+    <string-array name="spiner_age">
+        <item>0-12</item>
+        <item>12-18</item>
+        <item>18-25</item>
+        <item>25-32</item>
+        <item>32-40</item>
+        <item>40-48</item>
+        <item>48-54</item>
+        <item>54-61</item>
+        <item>61-72</item>
+        <item>72以上</item>
+    </string-array>
+</resources>

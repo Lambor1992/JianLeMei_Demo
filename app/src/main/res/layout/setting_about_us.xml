@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titlename="公司简介" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        健乐美智能居家养老服务中心是经民政部门批准的政府非营利性企业，国内首家以健康服务为核心的综合性健康管理机构，作为健康管理领域先行践行者，通过对会员建立健康档案、跟踪身体变化、订制健康方案、入户促进、健康工具促进等系统措施，借助强大的后台系统和互联网+技术对数以万计的会员进行健康管理服务，致力于成为引领健康产业深化创新的领军型企业。"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        企业立足以人为本，预防为主的方针，借鉴发达国家健康管理成功经验并结合国人生活方式与疾病发展的特点，运用预防医学、临床医学、生物信息学、营养学、心理学等成熟理论，借助IT支持系统的强大优势，紧紧抓住决定个人健康之关键的可控因素，一次创建出针对个人和人群的行之有效的健康管理方式。"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        公司总部设立天府之国——成都，雄踞于中国财富第四城商业繁华区域，努力打造5A级健康会所，以“完美贴心服务”为准则，力争打造业内标准产业的航母。"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="        2015年10月21日“天府早报”，“成都日报”，“西南商报”四川电视台“联播四川”栏目先后报道了国内第一家“智能”居家养老服务中心的相关情况。健乐美服务中心提供智能紧急救助，健康管理，生活照料三大版块的服务内容，内设“老年特惠超市”，理疗，体验，康复训练区域，营养餐厅，阅读室，专家咨询，康复门诊，电影室，老年卡拉OK室，运动营养服务中心等一体化服务。"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

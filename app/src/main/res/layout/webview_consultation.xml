@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:id="@+id/web_consult_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:titlename="" />
+
+    <LinearLayout
+        android:id="@+id/consult_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_clicked"
+            android:onClick="onClickPlay"
+            android:text="语音读报"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_clicked"
+            android:onClick="onClickPause"
+            android:text="暂停读报"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/web_consult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/consult_layout"
+        android:layout_below="@id/web_consult_title" />
+</RelativeLayout>

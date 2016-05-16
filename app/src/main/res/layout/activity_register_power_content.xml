@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎您使用健乐美APP软件及服务！" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="为使用健乐美APP软件（以下统称“本软件”）及服务，您应当阅读并遵守本协议，请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制责任的条款，以及开通或使用某项服务的单独协议，并选择接受或不接受。您点击“注册”按钮后，本协议即构成对双方有约束力的法律文件。除非您已阅读并接受本协议所有条款，否则您无权下载、安装或使用本软件及相关服务。" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一、【协议的范围】" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.1【协议适用主体范围】" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本协议是您与健乐美之间关于您下载、安装、使用、登录本软件，以及使用本服务所订立的协议。" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.2【协议关系及冲突条款】" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本协议的内容，包括但不限于以下本服务、本协议相关的协议、规则、规范以及健乐美可能不断发布的关于本服务的相关协议、规则、规范等内容，前述内容一经正式发布，即为本协议不可分割的组成部分，与其构成统一整体同样应当遵守。" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二、【关于本服务】"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.1【本服务内容】" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本服务内容是指健乐美通过本软件向用户提供的相关服务（简称“本服务”）。" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.2【本服务形式】" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通过手机终端以客户端形式使用本服务，具体以健乐美提供的为准，同时，健乐美会不断丰富您使用本服务的终端、形式等。当您使用本服务时，您应选择与您的终端、系统等相匹配的本软件版本，否则，您可能无法正常使用本服务。" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.3【许可的范围】" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.31健乐美给予您一项个人的、不可转让及非排他性的许可，以使用本软件。您可以为非商业目的在单一台终端设备上下载、安装、使用、登录本软件。" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.32本条及本协议其他条款未明示授权的其他一切权利仍由健乐美保留，您在行使这些权利时须另外取得健乐美的书面许可。健乐美如果未行使前述任何权利，并不构成对该权利的放弃。" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="三、【用户使用须知】"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用本软件您需要注册用户名，用户名保证用户注册登记软件或者合作单位提供的服务时提供的资料均真实、准确、完整合法有效，用户注册资料如有变动的，应及时更新注册资料。如果用户提供的注册资料的不合法、不真实、不准确、不详尽的，用户需承担因此引起的相应责任及后果，并且健乐美保留终止用户使用健乐美各项服务的权利。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.本软件的账号所有权仅属于初始刷材料申请人注册，禁止转让或者售卖；"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.产权声明：本软件的一些版权等知识产权，以及与“软件”相关的所有信息内容，包括但不限于：文字表述及组合、图标、图饰、图表、色彩、界面设计、版面框架、有关数据、印、极品电子文档等均受法律保护；用户在本客户端进行购买活动时，涉及用户真实姓名\名称、通信地址、联系电话、电子邮箱等隐私信息的，本站将予以严格保密，除非得到用户的授权或法律另有规定，本站不会向外界披露用户隐私信息。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.本软件可能使用的第三方软件或技术，是受到合法授权的。因第三方软件或技术引发的任何纠纷，由该第三方负责解决，桌面天下不承担任何责任。健乐美不对第三方软件或技术提供客服支持，若您需要获取支持，请与该软件或技术提供商联系。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.本软件上的服务价格、数量、能否提供等信息随时都有可能发生变动，本软件不做特别通知。本软件显示的信息可能会有一定的滞后性或差错，对此情形您知悉并理解；健乐美欢迎纠错，并会视情况给予纠错者一定的奖励。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.因如下情况造成订单延迟或无法交付等，健乐美不承担延迟交付责任："/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="（1）用户提供的信息错误、接受端设备等原因导致的；"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="（2）服务发送后无人查阅的；"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="（3）情势变更因素导致的；"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="（4）不可抗力因素导致的，例如：自然灾害、基础网络问题、突发战争、网络黑客等。"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.健乐美养老服务有限公司致力于提供正确、完整的健康资讯，但不保证信息的正确性和完整性，且不对因信息的不正确或遗漏导致的任何损失或损害承担责任。健乐美所提供的任何医疗信息，仅供参考，不能替代医生和其他医务人员的建议，如自行使用健乐美中资料发生偏差，健乐美养老服务有限公司概不负责，亦不负任何法律责任。是否采用健乐美的意见为用户个人行为，健乐美养老服务有限公司不承担任何可能产生的责任。"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本协议内容以黑体、加粗、下划线、斜体等方式显著标识的条款，请用户着重阅读。"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="健乐美养老服务有限公司保留对本声明作出不定时修改的权利。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.法律管辖和适用"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本协议的订立、执行和解释及争议的解决均应适用在中华人民共和国大陆地区适用之有效法律（但不包括其冲突法规）。如发生本协议与适用之法律相抵触时，则这些条款将完全按法律规定重新解释，而其它有效条款继续有效。如缔约方就本协议内容或其执行发生任何争议，双方应尽力友好协商解决；协商不成时，任何一方均可向有管辖权的中华人民共和国大陆地区法院提起诉讼。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本协议解释权及修订权归健乐美养老服务有限公司所有。"/>
+</LinearLayout>

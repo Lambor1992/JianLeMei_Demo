@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jlm.app.jianlemei_demo.activity.home.examcenter.DepressionExamActivity">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:id="@+id/exam_depression_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:titlename="抑郁症测试" />
+
+    <Button
+        android:id="@+id/exam_depression_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_clicked"
+        android:text="提 交"
+        android:textColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/exam_depression_ok"
+        android:layout_below="@id/exam_depression_title">
+
+        <LinearLayout
+            android:id="@+id/exam_depression_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            ></LinearLayout>
+    </ScrollView>
+</RelativeLayout>

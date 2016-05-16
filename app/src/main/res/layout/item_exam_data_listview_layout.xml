@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/item_fg_exam_data_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="test" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp">
+
+        <ImageButton
+            android:id="@+id/item_fg_examdta_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="7dp"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/fg_exam_data_connect" />
+
+        <ImageButton
+            android:id="@+id/item_fg_examdta_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="7dp"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/fg_exam_data_exam" />
+
+        <ImageButton
+            android:id="@+id/item_fg_examdta_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingRight="7dp"
+            android:paddingLeft="7dp"
+            android:background="@null"
+            android:focusable="false"
+            android:scaleType="centerInside"
+            android:src="@drawable/fg_exam_data_write" />
+    </LinearLayout>
+
+
+</RelativeLayout>

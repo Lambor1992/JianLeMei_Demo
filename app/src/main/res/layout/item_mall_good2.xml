@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/canlendar_text_color"
+    android:orientation="horizontal"
+    android:paddingTop="1px">
+
+    <ImageView
+        android:id="@+id/item_mall_goods_img2"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/item_mall_production_layout2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/item_mall_goods_name2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="鱼油"
+            android:textSize="32px" />
+
+        <TextView
+            android:id="@+id/item_mall_goods_descibe2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="冰雪节限定" />
+
+        <TextView
+            android:id="@+id/item_mall_goods_price2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="特惠价9998" />
+
+        <TextView
+            android:id="@+id/item_mall_goods_discountprice2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="惊爆价998" />
+
+
+    </LinearLayout>
+</LinearLayout></RelativeLayout>

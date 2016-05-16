@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jlm.app.jianlemei_demo.activity.RegsiterActivity">
+
+    <Button
+        android:id="@+id/register_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="注册" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/register_ok">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/register_realname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="真实姓名"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/register_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="电话号码"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/register_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="身份证号码"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/register_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="用户名"
+                android:singleLine="true"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="密码"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/register_re_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="再次输入密码"
+                android:singleLine="true" />
+
+
+            <EditText
+                android:id="@+id/register_invitecode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="邀请码"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/register_invitename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="邀请人"
+                android:singleLine="true" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

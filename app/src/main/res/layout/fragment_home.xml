@@ -1,0 +1,353 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jlm.app.jianlemei_demo.fragment.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/fg_home_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="健康小助手"
+        android:textColor="#ffffff"
+        android:background="#12b8f6"
+        android:textSize="30px" />
+
+    <RelativeLayout
+        android:id="@+id/fg_home_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/fg_home_title"
+        android:layout_weight="4"
+        android:background="@null">
+
+        <com.jlm.app.jianlemei_demo.widget.AutoScrollViewPager
+            android:id="@+id/fg_home_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RadioGroup
+            android:id="@+id/fg_home_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/fg_home_radiobutton1"
+                android:layout_width="@dimen/fg_home_viewpager_point_r"
+                android:layout_height="@dimen/fg_home_viewpager_point_r"
+                android:background="@drawable/selector_home_viewpager_piont"
+                android:button="@null"
+                android:checked="true"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/fg_home_radiobutton2"
+                android:layout_width="@dimen/fg_home_viewpager_point_r"
+                android:layout_height="@dimen/fg_home_viewpager_point_r"
+                android:layout_marginLeft="@dimen/fg_home_viewpager_point_d"
+                android:background="@drawable/selector_home_viewpager_piont"
+                android:button="@null"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/fg_home_radiobutton3"
+                android:layout_width="@dimen/fg_home_viewpager_point_r"
+                android:layout_height="@dimen/fg_home_viewpager_point_r"
+                android:layout_marginLeft="@dimen/fg_home_viewpager_point_d"
+                android:background="@drawable/selector_home_viewpager_piont"
+                android:button="@null"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/fg_home_radiobutton4"
+                android:layout_width="@dimen/fg_home_viewpager_point_r"
+                android:layout_height="@dimen/fg_home_viewpager_point_r"
+                android:layout_marginLeft="@dimen/fg_home_viewpager_point_d"
+                android:background="@drawable/selector_home_viewpager_piont"
+                android:button="@null"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/fg_home_radiobutton5"
+                android:layout_width="@dimen/fg_home_viewpager_point_r"
+                android:layout_height="@dimen/fg_home_viewpager_point_r"
+                android:layout_marginLeft="@dimen/fg_home_viewpager_point_d"
+                android:background="@drawable/selector_home_viewpager_piont"
+                android:button="@null"></RadioButton>
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="6"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/fg_home_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fg_home_vedio_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_vedio" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="电台" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#95e0ef" />
+
+                <LinearLayout
+                    android:id="@+id/fg_home_news_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_news" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="健康资讯" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#95e0ef" />
+
+                <LinearLayout
+                    android:id="@+id/fg_home_housekeeping_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_housekeeping" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="家政服务" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#95e0ef" />
+
+                <LinearLayout
+                    android:id="@+id/fg_home_callme_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_callme" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="一呼百应" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#95E0EF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fg_home_mall_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="1px"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/fg_home_btn_mall" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="商城" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#95e0ef" />
+
+                <LinearLayout
+                    android:id="@+id/fg_home_examcenter_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_examcenter" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="健乐美体检中心" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#95e0ef" />
+
+                <LinearLayout
+                    android:id="@+id/fg_home_reminds_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1px"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_reminds" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="吃药提醒" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#95E0EF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1.5"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/fg_home_game_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_game" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="益智游戏" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#95e0ef" />
+
+                <LinearLayout
+                    android:id="@+id/fg_home_selfexam_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_selfexam" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="身体自检" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#95e0ef" />
+
+                <LinearLayout
+                    android:id="@+id/fg_home_sos_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_sos" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="急救常识" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#95e0ef" />
+
+                <LinearLayout
+                    android:id="@+id/fg_home_warming_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        style="@style/home_img"
+                        android:src="@drawable/fg_home_btn_warming" />
+
+                    <TextView
+                        style="@style/home_tv"
+                        android:text="摔倒报警" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

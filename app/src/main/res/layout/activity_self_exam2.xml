@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jlm.app.jianlemei_demo.activity.home.SelfExam2Activity">
+
+    <com.jlm.app.jianlemei_demo.widget.TitleBar
+        android:id="@+id/self_exam2_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titlename="身体自检" />
+
+    <Button
+        android:id="@+id/self_exam2_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/shap_normal_1"
+        android:text="提交" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/self_exam2_submit"
+        android:layout_below="@id/self_exam2_title">
+
+        <LinearLayout
+            android:id="@+id/self_exam2_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+</RelativeLayout>
